@@ -27,6 +27,7 @@ caption{
 body{
   background-color:#DDDDDD;
   background-image: url(../images/pigeon-background.JPEG);
+  background-repeat:no-repeat;
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
@@ -51,7 +52,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-style: wavy;
 
 }
@@ -63,8 +64,9 @@ a{
 }
 
 td{
+  min-width: 125px;
   text-align: center;
-  border-top: 2px black;
+  border-top: 2px solid black;
   padding: 10px;
 }
 
@@ -73,22 +75,23 @@ td{
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
+  vertical-align: middle;
   text-align: center;
-  vertical-align: center;
   text-transform: uppercase;
   background-color: #7e0825;
 }
 
 .rowhead{
+  min-width: 125px;
   border-right: 2px solid black;
   text-align: center;
   padding: 10px;
 }
 table{
-    border: 5px solid #000000;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
+  border: 5px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
 }
 
 /* I gave you the selector, but not the property-value pair. 
