@@ -94,7 +94,7 @@ table{
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child {
-  border-radius: 50px 0 0 0 !important;
+  border-radius: 0 0 50px 0 !important;
 }
 thead tr:last-child {
   border-radius: 0 50px 0 0 !important;
