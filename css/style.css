@@ -97,7 +97,7 @@ thead tr:first-child {
   border-radius: 50px 0 0 0 !important;
 }
 thead tr:last-child {
-  border-radius: 0 0 0 0 !important;
+  border-radius: 0 50px 0 0 !important;
 }
 thead tr:last-child th:first-child {
   border-radius: 0 0 0 0 !important;
