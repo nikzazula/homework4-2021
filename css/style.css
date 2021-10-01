@@ -94,16 +94,16 @@ table{
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 thead tr:first-child {
-  border-radius: 50px 0 0 0 !important;
+  border-radius: 50px 0 0 0;
 }
 thead tr:last-child {
-  border-radius: 0 50px 0 0 !important;
+  border-radius: 0 50px 0 0;
 }
 thead tr:last-child th:first-child {
-  border-radius: 0 0 0 0 !important;
+  border-radius: 0 0 50px 0;
 }
 thead tr:last-child th:last-child{
-  border-radius: 0 0 0 0 !important;
+  border-radius: 0 0 0 50px;
 }
 
 tr:nth-child(even){
