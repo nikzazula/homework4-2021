@@ -25,6 +25,8 @@ caption{
 /*END STARTER CODE*/
 
 body{
+  background-color:#DDDDDD;
+  background-image: url(../images/pigeon-background.JPEG);
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
@@ -73,37 +75,37 @@ td{
   padding: 10px;
   text-align: center;
   vertical-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   background-color: #7e0825;
 }
 
 .rowhead{
-  border: 2px black;
+  border-right: 2px solid black;
   text-align: center;
-  vertical-align: center;
-
+  padding: 10px;
 }
-
-
 table{
     border: 5px solid #000000;
-    position: center;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50px;
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child {
+/*thead tr:first-child th:first-child{ */
+
+thead tr:last-child th:first-child {
   border-radius: 50px 0 0 0;
 }
-thead tr:last-child {
+thead tr:last-child th:last-child{
   border-radius: 0 50px 0 0;
 }
-thead tr:last-child th:first-child {
-  border-radius: 0 0 50px 0;
-}
-thead tr:last-child th:last-child{
+tbody tr:last-child th:first-child{
   border-radius: 0 0 0 50px;
+}
+tbody tr:last-child td:last-child{
+  border-radius: 0 0 50px 0;
 }
 
 tr:nth-child(even){
@@ -116,15 +118,16 @@ tr:nth-child(odd){
 /*Add selectors and rules here*/
 
 tr:hover {
-  background-color: white;
-  opacity: .25;
+  background-color: rgba(126, 8, 37, 0.25);
 }
 
 footer{
-  width:100%;
+  width: 100%;
   background:#000000;
-  text-align:center;
   color: #FFFFFF;
-  position: fixed;
+  text-align: center;
   min-height: 75px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
