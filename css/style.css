@@ -69,7 +69,6 @@ td{
 
 .colhead{
   color: #FFFFFF;
-  border-radius: 50px;
   min-width: 125px;
   padding: 10px;
   text-align: center;
@@ -80,6 +79,8 @@ td{
 
 .rowhead{
   border: 2px black;
+  text-align: center;
+  vertical-align: center;
 
 }
 
@@ -87,6 +88,7 @@ td{
 table{
     border: 5px solid #000000;
     position: center;
+    border-radius: 50px;
 }
 
 /* I gave you the selector, but not the property-value pair. 
