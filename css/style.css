@@ -93,6 +93,19 @@ table{
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
+table th:first-child {
+  border-radius: 5px 0 0 0 !important;
+}
+table th:last-child {
+  border-radius: 0 5px 0 0 !important;
+}
+table tr:last-child td:first-child {
+  border-radius: 0 0 0 5px !important;
+}
+table tr:last-child td:last-child {
+  border-radius: 0 0 5px 0 !important;
+}
+
 tr:nth-child(even){
   background-color: #D1D1D1;
 }
